@@ -1,0 +1,99 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+h1, h2, h3, h4, h5, h6{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-size: inherit;
+  font-weight: 400;
+ 
+}
+ul,li{
+  list-style: none;
+}
+body {
+  font-family: 'PT Sans', sans-serif;
+  color: #2E4453;
+}
+.my-name{
+  font-size: 64px;
+width: 448px;
+height: 83px;
+
+}
+header {
+  background-color: #b1eaff;
+width: 1366px;
+height: 245px;
+top: 0px;
+}
+.informtion{
+   color: #FFFFFF;
+   position: absolute;
+width: 448px;
+height: 145px;
+left: 513px;
+top: 39px;
+white-space: nowrap; 
+
+
+}
+.container{
+  display: flex;
+}
+h3{
+  font-size: 36px;
+}
+.profile{
+  margin-left: 152px;
+  margin-top: 12px;
+}
+.img{
+   
+border-radius: 220px; /* Радиус скругления */  
+}
+.contact{
+  font-size: 24px;
+}
+.left{
+  background-color: #A8BECE; 
+  margin-left: 153px;
+  width: 340px;
+
+font-size: 24px;
+}
+.skills{
+  margin-left: 43px;
+  padding-top: 43px;
+}
+.english{
+  margin-left: 43px;
+  padding-top: 23px;
+}
+.little-about-me{
+  margin-left: 43px;
+  padding-top: 23px;
+}
+.section{
+  display: flex;
+}
+.right{
+  margin-left: 21px;
+  padding-top: 43px;
+  font-size: 24px;
+  width: 615px;
+}
+.education{
+  padding-top: 23px;
+}
+.experience
+{
+  padding-top: 23px;
+}
+.Code
+{
+  padding-top: 23px;
+}
