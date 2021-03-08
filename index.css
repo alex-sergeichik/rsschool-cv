@@ -1,99 +1,119 @@
-*{
-  padding: 0;
-  margin: 0;
-  border: 0;
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
 }
-h1, h2, h3, h4, h5, h6{
-  padding: 0;
-  margin: 0;
-  border: 0;
-  font-size: inherit;
-  font-weight: 400;
- 
+
+h1,
+h2,
+h3 {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-size: inherit;
+    font-weight: 400;
 }
-ul,li{
-  list-style: none;
+
+ul,
+li {
+    list-style: none;
 }
+
 body {
-  font-family: 'PT Sans', sans-serif;
-  color: #2E4453;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    color: #2E4453;
 }
-.my-name{
-  font-size: 64px;
-width: 448px;
-height: 83px;
 
+.header-container {
+    display: flex;
+    background-color: rgb(20, 98, 161);
+    height: 20%;
 }
-header {
-  background-color: #b1eaff;
-width: 1366px;
-height: 245px;
-top: 0px;
-}
-.informtion{
-   color: #FFFFFF;
-   position: absolute;
-width: 448px;
-height: 145px;
-left: 513px;
-top: 39px;
-white-space: nowrap; 
 
+.avatar {
+    margin-left: 35px;
+    width: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
+.avatar img {
+    display: block;
+    margin: 0 auto;
+    width: 220px;
+    height: 200px;
+    border-radius: 200px;
 }
-.container{
-  display: flex;
-}
-h3{
-  font-size: 36px;
-}
-.profile{
-  margin-left: 152px;
-  margin-top: 12px;
-}
-.img{
-   
-border-radius: 220px; /* Радиус скругления */  
-}
-.contact{
-  font-size: 24px;
-}
-.left{
-  background-color: #A8BECE; 
-  margin-left: 153px;
-  width: 340px;
 
-font-size: 24px;
+.contact-info {
+    width: 865px;
+    margin-top: -10px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-.skills{
-  margin-left: 43px;
-  padding-top: 43px;
+
+.contact-info h1 {
+    font-size: 64px;
 }
-.english{
-  margin-left: 43px;
-  padding-top: 23px;
+
+.main-info-container {
+    height: 80%;
+    display: flex;
 }
-.little-about-me{
-  margin-left: 43px;
-  padding-top: 23px;
+
+.contacts li {
+    font-size: 24px;
 }
-.section{
-  display: flex;
+
+.contacts a {
+    text-decoration: none;
+    color: darkturquoise;
 }
-.right{
-  margin-left: 21px;
-  padding-top: 43px;
-  font-size: 24px;
-  width: 615px;
+
+.left-bar {
+    width: 15%;
+    padding: 20px;
+    background-color: #3ab3d8;
+    margin-left: 120px;
+    font-size: 24px;
 }
-.education{
-  padding-top: 23px;
+
+.left-bar h3 {
+    font-size: 36px;
 }
-.experience
-{
-  padding-top: 23px;
+
+.left-bar>div {
+    margin-bottom: 15px;
 }
-.Code
-{
-  padding-top: 23px;
+
+.skills p {
+    font-size: 30px;
+}
+
+.right-bar {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    width: 70%;
+}
+
+.right-bar>div {
+    margin-bottom: 15px;
+}
+
+.right-bar h3 {
+    font-size: 36px;
+}
+
+.code-examples {
+    font-size: 16px;
+}
+
+.code-examples pre {
+    margin-left: -110px;
 }
