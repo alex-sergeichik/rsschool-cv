@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+h1,
+h2,
+h3 {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-size: inherit;
+    font-weight: 400;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    color: #2E4453;
+}
+
+.header-container {
+    display: flex;
+    background-color: rgb(20, 98, 161);
+    height: 20%;
+}
+
+.avatar {
+    margin-left: 35px;
+    width: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.avatar img {
+    display: block;
+    margin: 0 auto;
+    width: 220px;
+    height: 200px;
+    border-radius: 200px;
+    /* закругление аватарки */
+}
+
+.contact-info {
+    width: 865px;
+    margin-top: -10px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-info h1 {
+    font-size: 64px;
+}
+
+.main-info-container {
+    height: 80%;
+    display: flex;
+}
+
+.contacts li {
+    font-size: 24px;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: darkturquoise;
+}
+
+.left-bar {
+    width: 15%;
+    padding: 20px;
+    background-color: #3ab3d8;
+    margin-left: 120px;
+    font-size: 24px;
+}
+
+.left-bar h3 {
+    font-size: 36px;
+}
+
+.left-bar>div {
+    margin-bottom: 15px;
+}
+
+.skills p {
+    font-size: 30px;
+}
+
+.right-bar {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    width: 70%;
+}
+
+.right-bar>div {
+    margin-bottom: 15px;
+}
+
+.right-bar h3 {
+    font-size: 36px;
+}
+
+.code-examples {
+    font-size: 16px;
+}
+
+.code-examples pre {
+    margin-left: -110px;
+}
